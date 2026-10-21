@@ -82,27 +82,29 @@ The application should be treated as a development and integration project until
 
 ## Portal Showcase
 
-The following role-based portal images are fictional UI mockups created for documentation and presentation. Their navigation, tabs, metrics, and workflow panels are based on the corresponding React portal structures. They are clearly labeled **Demo Showcase — Not Live Data** and do not represent authenticated production sessions or real patient information.
+The following images are sanitized screenshots from the running HealthNet portals. Personal names, email addresses, and usernames were replaced or redacted before publication. They are included for product presentation and do not contain live credentials or patient information.
 
 ### Patient Portal
 
-![HealthNet patient portal demo](docs/images/patient-portal-demo.png)
-
-### Doctor Portal
-
-![HealthNet doctor portal demo](docs/images/doctor-portal-demo.png)
+![HealthNet patient portal](docs/images/patient-portal-real.png)
 
 ### Receptionist Portal
 
-![HealthNet receptionist portal demo](docs/images/receptionist-portal-demo.png)
-
-### Hospital Administrator Portal
-
-![HealthNet hospital administrator portal demo](docs/images/hospital-admin-portal-demo.png)
+![HealthNet receptionist portal](docs/images/receptionist-portal-real.png)
 
 ### System Administrator Portal
 
-![HealthNet system administrator portal demo](docs/images/system-admin-portal-demo.png)
+![HealthNet system administrator portal](docs/images/system-admin-portal-real.png)
+
+### Hospital Administrator Portal
+
+![HealthNet hospital administrator portal](docs/images/hospital-admin-portal-real.png)
+
+### Hospital Resource Optimization
+
+![HealthNet hospital resource optimization](docs/images/hospital-resources-real.png)
+
+> A doctor-portal screenshot will be added when a sanitized doctor session screenshot is provided.
 
 ## System Architecture
 
