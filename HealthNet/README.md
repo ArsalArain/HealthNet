@@ -80,6 +80,30 @@ The application should be treated as a development and integration project until
 
 > Screenshots are captured from the local React application and stored in [`docs/images/`](docs/images/).
 
+## Portal Showcase
+
+The following role-based portal images are fictional UI mockups created for documentation and presentation. They are clearly labeled **Demo Showcase — Not Live Data** and do not represent authenticated production sessions or real patient information.
+
+### Patient Portal
+
+![HealthNet patient portal demo](docs/images/patient-portal-demo.png)
+
+### Doctor Portal
+
+![HealthNet doctor portal demo](docs/images/doctor-portal-demo.png)
+
+### Receptionist Portal
+
+![HealthNet receptionist portal demo](docs/images/receptionist-portal-demo.png)
+
+### Hospital Administrator Portal
+
+![HealthNet hospital administrator portal demo](docs/images/hospital-admin-portal-demo.png)
+
+### System Administrator Portal
+
+![HealthNet system administrator portal demo](docs/images/system-admin-portal-demo.png)
+
 ## System Architecture
 
 ```mermaid
