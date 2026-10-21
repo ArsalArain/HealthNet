@@ -1,0 +1,37 @@
+{
+  "name": "healthnet-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HealthNet Hospital Resource Management Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx kill-port 5000 && node server.js",
+    "dev": "npx kill-port 5000 && nodemon server.js",
+    "seed:doctor-appointments": "node scripts/seed_doctor_appointments.js",
+    "seed:bulk-hospitals": "node scripts/seed_bulk_hospitals.js",
+    "seed:import-patient-record-files": "node scripts/import_patient_record_files.js",
+    "seed:bulk-patient-flow-ai": "node scripts/seed_bulk_patient_flow_ai.js",
+    "seed:bulk-resources-optimize": "node scripts/seed_bulk_resources_and_optimize.js",
+    "dataset:resources": "python scripts/generate_resource_dataset.py",
+    "dataset:resources-patients": "node scripts/generate_resource_dataset_from_patients.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "csv-parse": "^6.2.0",
+    "csv-parser": "^3.2.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "google-auth-library": "^10.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "multer": "^2.1.1",
+    "nodemailer": "^6.9.16",
+    "stripe": "^22.2.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "kill-port": "^2.0.1",
+    "nodemon": "^3.1.9"
+  }
+}
