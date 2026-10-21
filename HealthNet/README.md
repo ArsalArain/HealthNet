@@ -268,6 +268,16 @@ For project discussions, technical questions, collaboration, or support, contact
 **Arsal Arain**  
 Email: [arsalarain72@gmail.com](mailto:arsalarain72@gmail.com)
 
+### Requesting the symptom dataset
+
+The large symptom dataset is not included in this GitHub repository because GitHub limits individual files to 100 MB. The excluded file is:
+
+```text
+backend/src/Final_Augmented_dataset_Diseases_and_Symptoms.csv
+```
+
+If you need this file for authorized development, research, or local setup, email [arsalarain72@gmail.com](mailto:arsalarain72@gmail.com) with the subject **HealthNet dataset request**.
+
 ## Technology Stack
 
 | Layer | Technologies |
