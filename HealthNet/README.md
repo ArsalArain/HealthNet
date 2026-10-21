@@ -82,7 +82,7 @@ The application should be treated as a development and integration project until
 
 ## Portal Showcase
 
-The following role-based portal images are fictional UI mockups created for documentation and presentation. They are clearly labeled **Demo Showcase — Not Live Data** and do not represent authenticated production sessions or real patient information.
+The following role-based portal images are fictional UI mockups created for documentation and presentation. Their navigation, tabs, metrics, and workflow panels are based on the corresponding React portal structures. They are clearly labeled **Demo Showcase — Not Live Data** and do not represent authenticated production sessions or real patient information.
 
 ### Patient Portal
 
