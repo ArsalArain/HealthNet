@@ -86,23 +86,23 @@ The following images are sanitized screenshots from the running HealthNet portal
 
 ### Patient Portal
 
-![HealthNet patient portal](docs/images/patient-portal-real.png)
+![HealthNet patient portal](docs/images/patient-portal-sanitized.png)
 
 ### Receptionist Portal
 
-![HealthNet receptionist portal](docs/images/receptionist-portal-real.png)
+![HealthNet receptionist portal](docs/images/receptionist-portal-sanitized.png)
 
 ### System Administrator Portal
 
-![HealthNet system administrator portal](docs/images/system-admin-portal-real.png)
+![HealthNet system administrator portal](docs/images/system-admin-portal-sanitized.png)
 
 ### Hospital Administrator Portal
 
-![HealthNet hospital administrator portal](docs/images/hospital-admin-portal-real.png)
+![HealthNet hospital administrator portal](docs/images/hospital-admin-portal-sanitized.png)
 
 ### Hospital Resource Optimization
 
-![HealthNet hospital resource optimization](docs/images/hospital-resources-real.png)
+![HealthNet hospital resource optimization](docs/images/hospital-resources-sanitized.png)
 
 > A doctor-portal screenshot will be added when a sanitized doctor session screenshot is provided.
 
