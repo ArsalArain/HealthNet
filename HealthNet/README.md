@@ -96,6 +96,10 @@ The following images are sanitized screenshots from the running HealthNet portal
 
 ![HealthNet system administrator portal](docs/images/system-admin-portal-sanitized.png)
 
+### Doctor Portal
+
+![HealthNet doctor portal](docs/images/doctor-portal-sanitized.png)
+
 ### Hospital Administrator Portal
 
 ![HealthNet hospital administrator portal](docs/images/hospital-admin-portal-sanitized.png)
@@ -103,8 +107,6 @@ The following images are sanitized screenshots from the running HealthNet portal
 ### Hospital Resource Optimization
 
 ![HealthNet hospital resource optimization](docs/images/hospital-resources-sanitized.png)
-
-> A doctor-portal screenshot will be added when a sanitized doctor session screenshot is provided.
 
 ## System Architecture
 
