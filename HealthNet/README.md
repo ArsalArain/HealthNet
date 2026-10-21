@@ -17,6 +17,22 @@
 
 HealthNet connects patients, doctors, receptionists, hospital administrators, and system administrators through one role-aware platform. It combines secure authentication, hospital operations, appointment workflows, patient records, department resources, AI-assisted symptom analysis, hospital discovery, and payment processing.
 
+## Project Description
+
+HealthNet is a modular healthcare operations platform designed to coordinate clinical, administrative, and patient-facing workflows in a hospital environment. The React frontend provides role-specific interfaces, the Node.js/Express API exposes authenticated business operations, MongoDB stores operational records, and the Flask service provides AI-assisted symptom and disease analysis.
+
+The platform is organized around **five primary stakeholder groups**:
+
+| Stakeholder | Responsibilities and supported workflows |
+| --- | --- |
+| Patients | Register, authenticate, manage profiles, discover hospitals, request appointments, review diagnoses/prescriptions, and use supported payment flows |
+| Doctors | Review schedules, manage appointments and queues, access authorized patient information, record diagnoses, and manage prescriptions |
+| Receptionists | Register and coordinate patient visits, manage queues, schedule appointments, and support front-desk hospital operations |
+| Hospital administrators | Manage hospital details, departments, staff, schedules, resources, reports, and operational optimization |
+| System administrators | Manage platform-wide hospitals, users, staff, oversight workflows, audit information, and administration |
+
+These five groups represent the application roles implemented in the current frontend route guards and backend authentication flows. External stakeholders such as insurers, pharmacies, laboratories, emergency services, and government health systems are not currently modeled as dedicated application roles.
+
 ## Highlights
 
 - Role-based authentication for patients, hospital administrators, doctors, receptionists, and system administrators.
@@ -29,6 +45,24 @@ HealthNet connects patients, doctors, receptionists, hospital administrators, an
 - Nearest-hospital discovery and hospital resource lookup.
 - Stripe payment integration for supported patient payment flows.
 - Responsive React dashboards with reusable components and toast-based notifications.
+
+## Scope and Current Limitations
+
+The repository contains the core application source, configuration templates, startup tooling, documentation, and UI screenshots. The following items are intentionally excluded from GitHub or require environment-specific setup:
+
+| Item | Status and reason |
+| --- | --- |
+| `backend/src/Final_Augmented_dataset_Diseases_and_Symptoms.csv` | Excluded because it is approximately 182 MB and exceeds GitHub's 100 MB individual-file limit; request it by email as described below |
+| Generated `.pkl` model artifacts | Excluded as generated/local ML artifacts; regenerate them using the project training workflow when required |
+| `.env` files | Excluded because they can contain database credentials, JWT secrets, OAuth values, SMTP passwords, payment keys, and AI API keys |
+| `node_modules`, Python environments, build output, caches, and logs | Excluded because they are machine-generated and restored or recreated locally |
+| Patient-record storage and local exports | Excluded because they may contain private or sensitive healthcare information |
+| MongoDB | Required separately; use a local MongoDB instance or a configured MongoDB Atlas deployment |
+| Google OAuth, SMTP, Stripe, and Anthropic services | Optional integrations that require valid project-specific credentials and provider configuration |
+| Production deployment infrastructure | Not included as a finalized production deployment; validate security, secrets, networking, backups, monitoring, and compliance before deployment |
+| Formal healthcare compliance certification | Not claimed by this repository; deployers must assess applicable privacy, security, retention, and regulatory requirements |
+
+The application should be treated as a development and integration project until authentication, authorization, data protection, integrations, backups, monitoring, and production deployment controls have been independently validated.
 
 ## Product Screenshots
 
